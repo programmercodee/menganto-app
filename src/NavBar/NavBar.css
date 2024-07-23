@@ -1,0 +1,29 @@
+.header{
+  grid-template-columns: auto auto;
+  grid-column-gap: 30px;
+  color: rgb(236, 194, 160);
+}
+#h{
+  height: 200vh;
+}
+.inner-img img{
+  height: 50vh;
+  object-fit: cover;
+
+}
+.hhh:hover{
+  .hh{
+    display: block;
+  }
+  .bb a svg{
+    transform: rotate(180deg);
+    transition: .5s;
+  }
+}
+.bb a svg{
+  transform: rotate(0deg);
+  transition: .3s;
+}
+.offcanvas-h{
+  height: 77vh;
+}
